@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8"
+    <title>Squirrel Photo App</title>
+  </head>
+  <body>
+    <main>
+      <h1>SquirrelPhotoApp</h1>
+      <section>
+        <h2>Squirrel Photos</h2>
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+
+        <a href=""><img src="Lazy-squirrel.jpeg" alt="A squirrel laying in a tree."></a>
+      </section>
+      <section>
+        <h2>Squirrel Lists</h2>
+        <h3>Things squirrels love:</h3>
+        <ul>
+          <li>Hanging out in trees</li>
+          <li>Eating nuts</li>
+          <li>Teasing Dogs</li>
+        </ul>
+        <figure>
+          <img src="squirrel-eating-peanuts.jpg" alt="A squirrel eating nuts.">
+          <figcaption>Squirrels <em>love</em> nuts.</figcaption>  
+        </figure>
+        <h3>Top 3 things squirrels hate:</h3>
+        <ol>
+          <li>Hawks</li>
+          <li>Dogs</li>
+          <li>Cats</li>
+        </ol>
+        <figure>
+          <img src="two-baby-squirrels.jpg" alt="Two baby squirrels.">
+          <figcaption>Squirrels are <strong>cute</strong> when young.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Squirrel Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your squirrel a fox or gray squirrel?</legend>
+            <label><input id="fox" type="radio" name="fox-gray" value="fox" checked> Fox</label>
+            <label><input id="gray" type="radio" name="indoor-gray" value="gray"> Gray</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your squirrels's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="squirrelphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
+      </p>
+    </footer>
+  </body>
+</html>
